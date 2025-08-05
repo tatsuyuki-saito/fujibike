@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>富士山サイクリング</title>
+  <style>
+    body { margin: 0; font-family: 'Arial', sans-serif; background-color: #f5f5f5; }
+    header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url('top_image.jpg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* 中央から上に移動 */
+  text-align: center;
+  color: white;
+  padding-top: 10vh; /* 上から20%に文字を配置 */
+}
+    header h1 { background-color: rgba(0, 0, 0, 0); padding: 1rem 2rem;
+      border-radius: 8px; font-size: 2.5rem; }
+    nav { background-color: #333; padding: 0.5rem; display: flex;
+      justify-content: space-between; align-items: center; flex-wrap: wrap; }
+    nav a { color: white; margin: 0 1rem; text-decoration: none; }
+    .lang-buttons button { margin: 3px; padding: 0.3rem 0.6rem; font-size: 0.9rem; }
+    main { padding: 2rem; }
+    footer { text-align: center; background-color: #222; color: white; padding: 1rem; }
+.header-text {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem 2rem;
+  border-radius: 8px;
+}
+
+.header-text .subtitle {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+  </style>
+</head>
+<body>
+  <nav>
+  <div>
+    <a href="#price" id="nav-howto">◆利用方法◆</a>
+    <a href="#terms" id="nav-terms">◆利用規約とよくある質問◆</a>
+    <a href="#price" id="nav-price">◆利用料金◆</a>
+    <a href="#location" id="nav-location">◆自転車置き場住所◆</a>
+    <a href="#company" id="nav-company">◆運営会社◆</a>
+    <a href="#contact" id="nav-contact">◆お問い合わせ◆</a>
+  </div>
+    <div class="lang-buttons">
+      <button onclick="setLanguage('ja')">日本語</button>
+      <button onclick="setLanguage('en')">English</button>
+      <button onclick="setLanguage('zh')">中文</button>
+      <button onclick="setLanguage('ko')">한국어</button>
+      <button onclick="setLanguage('es')">Español</button>
+      <button onclick="setLanguage('fr')">Français</button>
+      <button onclick="setLanguage('de')">Deutsch</button>
+      <button onclick="setLanguage('ru')">Русский</button>
+      <button onclick="setLanguage('hi')">हिन्दी</button>
+      <button onclick="setLanguage('ar')">العربية</button>
+      <button onclick="setLanguage('pt')">Português</button>
+      <button onclick="setLanguage('vi')">Tiếng Việt</button>
+      <button onclick="setLanguage('id')">Bahasa Indonesia</button>
+      <button onclick="setLanguage('it')">Italiano</button>
+      <button onclick="setLanguage('tr')">Türkçe</button>
+    </div>
+  </nav>
+<header>
+  <div class="header-text">
+   <h1 id="main-title">富士山のふもとで自由にサイクリング！</h1>
+    <p class="subtitle">富士山駅から徒歩7分の場所にある無人レンタルサイクル。<br>
+    電動アシスト自転車を3時間1,500円～の地域最安料金で借りれます。</p>
+  </div>
+</header>
+  <main>
+     <section id="howto">
+      <h2 id="howto-title">◆利用方法◆</h2>
+      <ol id="howto-list">
+        <li>現地でQRコードを読み取り、お名前、メールアドレス、電話番号、目安利用時間を入力し、本人確認書類をアップロードして支払いをします。(現金不可)</li>
+        <li>支払い後、メールアドレスに自転車番号と鍵番号が通知されるので、開錠して利用できます。</li>
+        <li>支払いの際、返却案内のメールも同時に送りますので、返却後返却案内のメールから返却完了をします。</li>
+      </ol>
+     </section>
+
+ <section id="terms">
+ <h2>◆利用規約とよくある質問◆</h2>
+<p>下記のボタンで利用規約とよくある質問をご確認いただけます。</p>
+  <a href="terms_faq_jp.pdf" target="_blank" style="display:inline-block;padding:10px 20px;background:#007bff;color:white;border-radius:5px;text-decoration:none;">
+    利用規約・FAQをPDFで見る
+  </a>
+</section>
+
+  <section id="price">
+    <h2>◆利用料金◆</h2>
+    <p>3時間 1,500円<br>
+  (※3時間を過ぎると下記追加料金がかかります。)</p>
+    <ul>
+    <li>3時間1秒～6時間まで　基本プラン＋500円（合計2,000円）</li>
+    <li>6時間1秒～24時間まで　基本プラン＋1,500円（合計3,000円）</li>
+    <li>24時間1秒～27時間まで　基本プラン＋3,000円（合計4,500円）</li>
+    <li>27時間1秒～30時間まで　基本プラン＋3,500円（合計5,000円）</li>
+    <li>30時間1秒～42時間まで　基本プラン＋4,500円（合計6,000円）</li>
+    </ul>
+    </section>
+
+   <section id="location">
+  <h2>◆自転車置き場住所◆</h2>
+  <p>
+    〒403-0005<br>
+    山梨県富士吉田市上吉田4丁目7番2-1号<br>
+    （富士山駅から富士山方向に向かい、一つ目の点滅信号を直進して3分程度歩くと着きます。）<br>
+     (※運営会社の所在地とは異なります。)
+  </p>
+  <img src="map.png" alt="地図（富士山駅からのルート）" style="max-width:100%; height:auto; border:1px solid #ccc; border-radius:8px;">
+    </section>
+    <section id="company">
+    <h2>◆運営会社◆</h2>
+    <p>運営会社：ヴァン合同会社<br>
+  所在地：山梨県富士吉田市上吉田東3丁目7番5号<br>
+  (※自転車置き場の住所とは異なります。)</p>
+  </section>
+
+    <section id="contact">
+      <h2 id="contact-title">◆お問い合わせ◆</h2>
+      <p id="contact-desc">fujiyoshida.bike@gmail.comメールしてください</p>
+    </section>
+
+  </main>
+  <footer>
+    <p>&copy; 2025 Fuji Rental Cycles. All rights reserved.</p>
+  </footer>
+  <script src="translations.js"></script>
+  <script src="lang-handler.js"></script>
+  <script>
+  window.onload = () => {
+    const savedLang = localStorage.getItem("lang") || "ja";
+    setLanguage(savedLang);
+  };
+  </script>
+
+</body>
+</html>
