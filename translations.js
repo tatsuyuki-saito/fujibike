@@ -889,7 +889,7 @@ tr: {
     </a>
   `,
 
-  contactDesc: "Lütfen fujiyoshida.bike@gmail.com adresine e-posta gönderin",
+  contactDesc: "Lütfen fujiyoshida.bicycle@gmail.com adresine e-posta gönderin",
 
   priceHtml: `
     <h2>◆Ücretler◆</h2>
