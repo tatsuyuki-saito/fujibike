@@ -374,7 +374,7 @@ de: {
     </a>
   `,
 
-  contactDesc: "Bitte senden Sie eine E-Mail an fujiyoshida.bike@gmail.com",
+  contactDesc: "Bitte senden Sie eine E-Mail an fujiyoshida.bicycle@gmail.com",
 
   priceHtml: `
     <h2>◆Nutzungsgebühren◆</h2>
