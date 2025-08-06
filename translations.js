@@ -236,7 +236,7 @@ es: {
   company: "◆Empresa Operadora◆",
   contact: "◆Contacto◆",
   contactTitle: "◆Contacto◆",
-  contactDesc: "Por favor envíe un correo a: fujiyoshida.bike@gmail.com",
+  contactDesc: "Por favor envíe un correo a: fujiyoshida.bicycle@gmail.com",
   howtoList: [
     "Por favor revise los términos y condiciones.",
     "Después de revisarlos, escanee el código QR en el lugar, introduzca su nombre, correo electrónico, número de teléfono y tiempo estimado de uso, cargue su identificación y realice el pago. (No se acepta efectivo)",
