@@ -25,7 +25,7 @@ termsHtml: `
     利用規約・FAQをPDFで見る
   </a>
 `,
-    contactDesc: "fujiyoshida.bike@gmail.com にメールしてください",
+    contactDesc: "fujiyoshida.bicycle@gmail.com にメールしてください",
 priceHtml: `
   <h2>◆利用料金◆</h2>
   <p>3時間 1,500円<br>
