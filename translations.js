@@ -110,7 +110,7 @@ footerText: "&copy; 2025 Fuji Rental Cycles. All rights reserved."
     `,
     contact: "◆Contact◆",
     contactTitle: "◆Contact◆",
-    contactDesc: "Please email: fujiyoshida.bike@gmail.com",
+    contactDesc: "Please email: fujiyoshida.bicycle@gmail.com",
     footerText: "<p>&copy; 2025 Fuji Rental Cycles. All rights reserved.</p>"
   },
 
@@ -165,7 +165,7 @@ footerText: "&copy; 2025 Fuji Rental Cycles. All rights reserved."
   `,
   contact: "◆联系我们◆",
   contactTitle: "◆联系我们◆",
-  contactDesc: "请发送邮件至：fujiyoshida.bike@gmail.com",
+  contactDesc: "请发送邮件至：fujiyoshida.bicycle@gmail.com",
   footerText: "<p>&copy; 2025 富士租赁自行车版权所有</p>"
 },
 
@@ -179,7 +179,7 @@ footerText: "&copy; 2025 Fuji Rental Cycles. All rights reserved."
   company: "◆운영 회사◆",
   contact: "◆문의하기◆",
   contactTitle: "◆문의하기◆",
-  contactDesc: "fujiyoshida.bike@gmail.com 으로 이메일을 보내주세요",
+  contactDesc: "fujiyoshida.bicycle@gmail.com 으로 이메일을 보내주세요",
   howtoList: [
     "이용 약관을 확인해주세요.",
     "이용 약관 확인 후, 현장에서 QR코드를 스캔하여 이름, 이메일 주소, 전화번호, 예상 이용 시간을 입력하고, 신분증을 업로드한 뒤 결제합니다. (현금 불가)",
@@ -309,7 +309,7 @@ fr: {
     </a>
   `,
 
-  contactDesc: "Veuillez envoyer un e-mail à fujiyoshida.bike@gmail.com",
+  contactDesc: "Veuillez envoyer un e-mail à fujiyoshida.bicycle@gmail.com",
   
   priceHtml: `
     <h2>◆Tarifs◆</h2>
@@ -438,7 +438,7 @@ ru: {
     </a>
   `,
 
-  contactDesc: "Пожалуйста, напишите на fujiyoshida.bike@gmail.com",
+  contactDesc: "Пожалуйста, напишите на fujiyoshida.bicycle@gmail.com",
 
   priceHtml: `
     <h2>◆Тарифы◆</h2>
@@ -502,7 +502,7 @@ hi: {
     </a>
   `,
 
-  contactDesc: "कृपया fujiyoshida.bike@gmail.com पर ईमेल करें",
+  contactDesc: "कृपया fujiyoshida.bicycle@gmail.com पर ईमेल करें",
 
   priceHtml: `
     <h2>◆प्रयोग शुल्क◆</h2>
@@ -566,7 +566,7 @@ ar: {
     </a>
   `,
 
-  contactDesc: "يرجى إرسال بريد إلكتروني إلى fujiyoshida.bike@gmail.com",
+  contactDesc: "يرجى إرسال بريد إلكتروني إلى fujiyoshida.bicycle@gmail.com",
 
   priceHtml: `
     <h2>◆الرسوم◆</h2>
@@ -630,7 +630,7 @@ pt: {
     </a>
   `,
 
-  contactDesc: "Envie um e-mail para fujiyoshida.bike@gmail.com",
+  contactDesc: "Envie um e-mail para fujiyoshida.bicycle@gmail.com",
 
   priceHtml: `
     <h2>◆Taxas de uso◆</h2>
@@ -695,7 +695,7 @@ pt: {
     </a>
   `,
 
-  contactDesc: "Vui lòng gửi email đến fujiyoshida.bike@gmail.com",
+  contactDesc: "Vui lòng gửi email đến fujiyoshida.bicycle@gmail.com",
 
   priceHtml: `
     <h2>◆Phí sử dụng◆</h2>
@@ -759,7 +759,7 @@ id: {
     </a>
   `,
 
-  contactDesc: "Silakan kirim email ke fujiyoshida.bike@gmail.com",
+  contactDesc: "Silakan kirim email ke fujiyoshida.bicycle@gmail.com",
 
   priceHtml: `
     <h2>◆Biaya Penggunaan◆</h2>
@@ -824,7 +824,7 @@ it: {
     </a>
   `,
 
-  contactDesc: "Invia un'email a fujiyoshida.bike@gmail.com",
+  contactDesc: "Invia un'email a fujiyoshida.bicycle@gmail.com",
 
   priceHtml: `
     <h2>◆Tariffe◆</h2>
