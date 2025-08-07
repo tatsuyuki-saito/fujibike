@@ -139,13 +139,18 @@
   <script src="lang-handler.js"></script>
   <script>
   window.onload = () => {
-    const savedLang = localStorage.getItem("lang") || "ja";
-    setLanguage(savedLang);
-  };
+  const savedLang = localStorage.getItem("lang") || "ja";
+  setLanguage(savedLang);
+
+  const t = translations[savedLang];  // 翻訳辞書を取得
+  document.getElementById("footer-text").innerHTML = t.footerText;
+  document.getElementById("footer-legal-link").innerText = t.footerLinkText;
+};
   </script>
 
 </body>
 </html>
+
 
 
 
