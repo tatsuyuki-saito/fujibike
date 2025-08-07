@@ -58,6 +58,8 @@ companyHtml: `
   </p>
 `,
 footerText: "&copy; 2025 Fuji Rental Cycles. All rights reserved."
+,
+footerLinkText: "特定商取引法に基づく表記"
   },
 
    en: {
