@@ -57,7 +57,9 @@ companyHtml: `
     (※自転車置き場の住所とは異なります)
   </p>
 `,
-footerText: "&copy; 2025 Fuji Rental Cycles. All rights reserved."
+footerText: `&copy; 2025 Fuji Rental Cycles. All rights reserved。<br>
+<a href="law.html" style="color: #fff; font-weight: bold; text-decoration: underline;">特定商取引法に基づく表記</a>`
+
 ,
 footerLinkText: "特定商取引法に基づく表記"
   },
